@@ -74,8 +74,9 @@ convert documents such as `.docx` files into HTML or Markdown.
 
 This template is set up to deploy to GitHub Pages.
 
-Enable GitHub Pages, edit `pathPrefix` in `gatsby-config.js` to be
-`/<YOUR_REPO_NAME>`, then run `npm run deploy` to deploy this site at
+Edit `pathPrefix` in `gatsby-config.js` to be `/<YOUR_REPO_NAME>` and run
+`npm run deploy`. Then, navigate to your repository settings and enable GitHub
+Pages with the `gh-pages` branch as Source. Your site should be deployed at
 `https://<YOUR_GITHUB_USERNAME>.github.io/<YOUR_REPO_NAME>`.
 
 Consult
