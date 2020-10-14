@@ -4,11 +4,9 @@ import {graphql} from 'gatsby';
 import SEO from 'components/seo';
 import Page from 'components/page';
 import Content from 'components/content';
-import Avatar from 'components/avatar';
+import Header from 'components/header';
 
 import {Card, Button, Accordion} from 'react-bootstrap';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faMapMarkedAlt} from '@fortawesome/free-solid-svg-icons';
 
 const meta = require('../../data/meta.json');
 
@@ -28,15 +26,7 @@ export default function IndexPage({data}) {
   return (
     <Page>
       <SEO title='Home' />
-      <header/>
-        <Avatar uri={meta.avatarUrl} />
-      {/* <Avatar uri={meta.avatarUrl} /> */}
-      <h1 style={{marginBottom: '8px'}}>{meta.name}</h1>
-      <h5>
-        <FontAwesomeIcon icon={faMapMarkedAlt} style={{marginRight: '8px'}} />
-        {meta.location}
-      </h5>
-      <br />
+      <Header />
       <Accordion className='dark-accordion' style={{maxWidth: '100%'}}>
         <Card bg='dark' text='light'>
           <Card.Header>

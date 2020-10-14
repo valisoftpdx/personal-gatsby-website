@@ -2,13 +2,15 @@ import React from 'react';
 
 import SEO from 'components/seo';
 import Page from 'components/page';
+import Header from 'components/header';
 
 import {Alert} from 'react-bootstrap';
 
 export default function NotFoundPage() {
   return (
     <Page>
-      <SEO title='404: Not found' />
+      <SEO title='404 - Not found' />
+      <Header />
       <Alert variant='danger'>
         <Alert.Heading>Well crud!</Alert.Heading>
         <p>

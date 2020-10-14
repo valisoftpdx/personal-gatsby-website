@@ -51,12 +51,6 @@ a:visited {
   color: orangered !important;
 }
 
-header {
-  top: 0;
-  margin-top: 20px;
-  margin-bottom: auto;
-}
-
 footer {
   margin-top: auto;
   margin-bottom: 20px;
