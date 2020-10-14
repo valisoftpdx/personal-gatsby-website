@@ -1,0 +1,65 @@
+html {
+  background-image: url('../../../assets/background.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: transparent !important;
+}
+
+.___gatsby,
+.gatsby-focus-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  width: 90vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+.dark-accordion,
+.dark-accordion * {
+  background-color: #222 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #fff;
+}
+
+a,
+a:hover,
+a:visited {
+  color: orangered !important;
+}
+
+header {
+  top: 0;
+  margin-top: 20px;
+  margin-bottom: auto;
+}
+
+footer {
+  margin-top: auto;
+  margin-bottom: 20px;
+  bottom: 0;
+  text-align: center;
+}
