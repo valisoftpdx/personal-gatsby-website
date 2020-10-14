@@ -5,10 +5,9 @@ import SEO from 'components/seo';
 import Page from 'components/page';
 import Content from 'components/content';
 import Header from 'components/header';
+import Footer from 'components/footer';
 
 import {Card, Button, Accordion} from 'react-bootstrap';
-
-const meta = require('../../data/meta.json');
 
 function getEventKey(section) {
   return String(section + 'toggle').toLowerCase();
@@ -77,17 +76,7 @@ export default function IndexPage({data}) {
           })}
         </Card>
       </Accordion>
-      <br />
-      <footer>
-        <h6>
-          Copyright &copy; {new Date().getFullYear()}
-          {', '}
-          {meta.name}
-        </h6>
-        <h6>
-          Website template made by <a href='https://valisoft.net'>VALISOFT</a>
-        </h6>
-      </footer>
+      <Footer />
     </Page>
   );
 }

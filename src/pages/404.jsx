@@ -3,6 +3,7 @@ import React from 'react';
 import SEO from 'components/seo';
 import Page from 'components/page';
 import Header from 'components/header';
+import Footer from 'components/footer';
 
 import {Alert} from 'react-bootstrap';
 
@@ -18,6 +19,7 @@ export default function NotFoundPage() {
           the address, or perhaps it doesn't exist?
         </p>
       </Alert>
+      <Footer />
     </Page>
   );
 }
