@@ -4,11 +4,5 @@
   "siteUrl": "https://mydomain.com/",
   "avatarUrl": "",
   "name": "My Name",
-  "location": "My City, My State",
-  "links": [
-    {"title": "LinkedIn", "url": "https://linkedin.com"},
-    {"title": "GitHub", "url": "https://github.com"},
-    {"title": "GitLab", "url": "https://gitlab.com"},
-    {"title": "Gitee", "url": "https://gitee.com"}
-  ]
+  "location": "My City, My State"
 }

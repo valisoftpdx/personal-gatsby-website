@@ -51,14 +51,6 @@ the Copyright notice in the footer.
 
 Displayed beneath your name as your current location.
 
-### `links`
-
-Links which will be displayed in a nav bar beneath your location. Go ahead and
-put what you want here!
-
-**NOTE:** `links` expects an array of `link` JSON objects, which have `title`
-and `url` properties.
-
 ## Profile Content
 
 Each markdown (`.md`) file in `data/` correlates to a section displayed on your
